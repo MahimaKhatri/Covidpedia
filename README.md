@@ -1,6 +1,6 @@
-# COVIDPEDIA
+# COVIDPEDIA :closed_book:
 
-## Introduction:shamrock:
+## Introduction :shamrock:
 
 In this project , a responsive website named as COVIDPEDIA is made using HTML ,CSS and Javascript .This website works as an awareness website which focuses on the disease CORONAVIRUS ,walking through its details , symptoms ,active cases , precautions that can be taken and vaccination available in India along with efficacy percentage.
 
