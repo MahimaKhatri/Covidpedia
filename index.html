@@ -1,67 +1,345 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Web-o-Code</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+</head>
+
+<body>
+<!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand" href="#">Hidden brand</a>
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item my-2 my-lg-0">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+            <a class="navbar-brand" href="#">COVIDPEDIA</a>
+            <ul class="navbar-nav  ml-auto  my-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#carouselExampleControls">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#counts">Cases <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#symp">Symptoms <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#precaution">Precautions <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#vaccine">Vaccination <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+           
         </div>
-      </nav>
+    </nav>
 
-      <!-- End Of nav -->
+    <!-- End Of nav -->
 
-
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+<!-- CAROUSEL -->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
+            <div class="carousel-item active">
+                <img src="/Images/pexels-miguel-á-padriñán-3936358.jpg" class="d-block w-100" alt="Covid">
+            </div>
+            <div class="carousel-item">
+                <img src="/Images/pexels-cdc-3993212.jpg" class="d-block w-100" alt="Covid">
+            </div>
+            <div class="carousel-item">
+                <img src="/Images/pexels-engin-akyurt-4056220.jpg" class="d-block w-100" alt="Covid">
+            </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
         </a>
         <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
         </a>
-      </div>
+    </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <!-- End of carousel -->
+    
+    <!-- About  -->
+    <section id="about" class="about">
+        <h1 style="font-size: 5vw; color: white; text-align: center; margin-top: 80px; margin-bottom: 20px;">About COVID-19</h1>
+        <div class="container-fluid">
+  
+          <div class="row justify-content-center">
+            <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
+              <a href="https://www.youtube.com/watch?v=iP6utI4Dw1U" class="glightbox play-btn mb-4"></a>
+            </div>
+  
+            <div class="col-xl-5 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
+              <h3>COVID-19 is a dangerous disease caused by a virus discovered in December 2019 in Wuhan, China. </h3>
+              <p style="color: white;">COVID-19 most often causes respiratory symptoms that can feel much like a cold, a flu, or pneumonia, but COVID-19 can also harm other parts of the body.It is very contagious and has quickly spread around the world.Group Of people at higher risks are as follows:</p>
+  
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-fingerprint"></i></div>
+                <p class="description">People who have travelled to other countries in last 14 days and their family members</p>
+              </div>
+  
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-gift"></i></div>
+                <p class="description">Family members and contacts of patients confirmed to have COVID-19.</p>
+              </div>
+  
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-atom"></i></div>
+                <p class="description">People older than 60 years of age and people with medical problems like high
+                    blood pressure, heart problems, respiratory disease/asthma, cancer or diabetes
+                    are at higher risk for developing serious complications</p>
+              </div>
+  
+            </div>
+          </div>
+  
+        </div>
+      </section>
+      <!-- End About Section -->
+    <!-- Counter Section -->
+    <section id="counts" class="counts section-bg">
+        <h1 style="font-size: 5vw; ">COVID-19 Cases In India</h1>
+        <div class="container-fluid">
 
-  </body>
+            <div class="row counters">
+
+                <div class="col-lg-3 col-6 text-center">
+                    <span data-purecounter-start="0" data-purecounter-end="160989" data-purecounter-duration="1"
+                        class="purecounter"></span>
+                    <p>Active</p>
+                </div>
+
+                <div class="col-lg-3 col-6 text-center">
+                    <span data-purecounter-start="0" data-purecounter-end="33614434" data-purecounter-duration="1"
+                        class="purecounter"></span>
+                    <p>Recovered</p>
+                </div>
+
+                <div class="col-lg-3 col-6 text-center">
+                    <span data-purecounter-start="0" data-purecounter-end="456386" data-purecounter-duration="1"
+                        class="purecounter"></span>
+                    <p>Deceased</p>
+                </div>
+
+                <div class="col-lg-3 col-6 text-center">
+                    <span data-purecounter-start="0" data-purecounter-end="34231809" data-purecounter-duration="1"
+                        class="purecounter"></span>
+                    <p>Confirmed</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- End Counts Section -->
+
+    <!-- Symptoms Section -->
+    <div class="container" id="symp">
+        <h1 style="font-size: 5vw;">Symptoms</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="content"> <a href="#">
+                        <div class="content-overlay"></div> <img class="content-image"
+                            src="/Images/pexels-polina-tankilevitch-3873188.jpg">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">Fever</h3>
+                        </div>
+                    </a> </div>
+            </div>
+            <div class="col-md-4">
+                <div class="content"> <a href="#">
+                        <div class="content-overlay"></div> <img class="content-image"
+                            src="/Images/pexels-pavel-danilyuk-7596886.jpg">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">Cough</h3>
+                        </div>
+                    </a> </div>
+            </div>
+            <div class="col-md-4">
+                <div class="content"> <a href="#">
+                        <div class="content-overlay"></div> <img class="content-image"
+                            src="/Images/pexels-david-garrison-2128817.jpg">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">Tiredness</h3>
+                        </div>
+                    </a> </div>
+            </div>
+        </div>
+        <div class="rowm">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="content"> <a href="#">
+                            <div class="content-overlay"></div> <img class="content-image"
+                                src="/Images/pexels-cottonbro-6202735.jpg">
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">Shortness of Breath </h3>
+                            </div>
+                        </a> </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="content"> <a href="#">
+                            <div class="content-overlay"></div> <img class="content-image"
+                                src="/Images/pexels-ron-lach-8487215.jpg">
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">Headache</h3>
+                            </div>
+                        </a> </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="content"> <a href="#">
+                            <div class="content-overlay"></div> <img class="content-image"
+                                src="/Images/pexels-towfiqu-barbhuiya-9882204.jpg">
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">Sore Throat</h3>
+                            </div>
+                        </a> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End -->
+<!-- precautions -->
+    <div class="container mt-5" id="precaution">
+        <h1 style="font-size: 5vw; ">Precautions</h1>
+        <div class="d-flex align-items-center cards">
+            <div class="card">
+                <div class="h5" style="text-align: center;font-size: 3vw;margin-top: 50%;"> <a href="#">Avoid Handshake</a> </div>
+                <div class="mt-auto">
+                    <div class="d-flex align-items-center">   
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="h5" style="text-align: center;font-size: 3vw;margin-top: 50%;"> <a href="#">Maintain Social Distancing</a> </div>
+                <div class="mt-auto">
+                    <div class="d-flex align-items-center">   
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="h5" style="text-align: center;font-size: 3vw;margin-top: 50%;"> <a href="#">Wear Mask</a> </div>
+                <div class="mt-auto">
+                    <div class="d-flex align-items-center">   
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="h5" style="text-align: center;font-size: 3vw;margin-top: 50%;"> <a href="#">Get Vaccinated</a> </div>
+                <div class="mt-auto">
+                    <div class="d-flex align-items-center">   
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="h5" style="text-align: center;font-size: 3vw;margin-top: 50%;"> <a href="#">Eat Fruits</a> </div>
+                <div class="mt-auto">
+                    <div class="d-flex align-items-center">   
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="h5" style="text-align: center;font-size: 3vw;margin-top: 50%;"> <a href="#">Stay At Home</a> </div>
+                <div class="mt-auto">
+                    <div class="d-flex align-items-center">   
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="h5" style="text-align: center;font-size: 3vw;margin-top: 50%;"> <a href="#">Practice Yoga and Meditation</a> </div>
+                <div class="mt-auto">
+                    <div class="d-flex align-items-center">   
+                    </div>
+                </div>
+            </div>
+           
+    </div>
+    <!-- end of precautions -->
+
+    <!-- Vaccine -->
+    <div class="vaccine" id="vaccine">
+        <h1 style="font-size: 5vw; margin-top: 70px;">Vaccine Available In India</h1>
+        <div class="container d-flex align-items-center justify-content-center flex-wrap">
+            <div class="box">
+                <div class="body">
+                    <div class="imgContainer"> <img src="/Images/et-explains-why-did-india-extend-the-gap-between-covishield-doses.png" alt=""> </div>
+                    <div class="content d-flex flex-column align-items-center justify-content-center">
+                        <div>
+                            <h3 class="text-white fs-5">COVISHIELD</h3>
+                            <p class="fs-6 text-white">Efficacy Percentage - 70%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="body">
+                    <div class="imgContainer"> <img src="/Images/COVAXIN-vaccine-by-Bharath-Biotech_Bharath-Biotech-2.png" alt=""> </div>
+                    <div class="content d-flex flex-column align-items-center justify-content-center">
+                        <div>
+                            <h3 class="text-white fs-5">COVAXIN</h3>
+                            <p class="fs-6 text-white">Efficacy Percentage - 77.8%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="body">
+                    <div class="imgContainer"> <img src="/Images/sputnik-light-1620305640.png" alt=""> </div>
+                    <div class="content d-flex flex-column align-items-center justify-content-center">
+                        <div>
+                            <h3 class="text-white fs-5">SPUTNIK</h3>
+                            <p class="fs-6 text-white">Efficacy Percentage - 97.2%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+<!-- ======= Footer ======= -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+             <div class="copyright-box">
+                 <p>© Copyright Mahima Khatri . All Rights Reserved</p>
+             </div> 
+             <div class="credits">
+                <p>Designed by <a href="https://github.com/MahimaKhatri">Mahima Khatri</a></p>
+              </div>  
+            </div>
+        </div>
+    </div>
+</footer>
+    <!-- End Footer -->
+    <!-- Back To Top -->
+    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+       <i class="fa fa-arrow-up"></i>
+    </button>
+    <!-- End -->
+
+    <script src="/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+</body>
+
 </html>
