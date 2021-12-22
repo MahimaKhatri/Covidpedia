@@ -4,7 +4,7 @@
 
 In this project , a responsive website named as COVIDPEDIA is made using HTML ,CSS and Javascript .This website works as an awareness website which focuses on the disease CORONAVIRUS ,walking through its details , symptoms ,active cases , precautions that can be taken and vaccination available in India along with efficacy percentage.
 
-The project is a submission in Web-O-Code hackathon and the theme chosen is Healthcare.
+The theme chosen for the project is Healthcare.
 
 ## Features :eyes:
 
