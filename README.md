@@ -1,4 +1,8 @@
+<div align='center'>
+  
 # COVIDPEDIA :closed_book:
+ 
+</div>
 
 ## Introduction :shamrock:
 
